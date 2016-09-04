@@ -1,0 +1,67 @@
+{
+  "id": "f026ef38-baa2-42fb-bfd8-fffa4bc5d461",
+  "name": "hallo",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "d401df75-3be5-4c5f-abde-c4cf95528057",
+      "data": [
+        {
+          "text": "hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8362ac3-5ab1-4622-9461-c2ace783ba81",
+      "data": [
+        {
+          "text": "Hoi",
+          "alias": "Hallo",
+          "meta": "@Hallo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffd16eb8-c624-45f7-8b24-5d608244821f",
+      "data": [
+        {
+          "text": "Lux",
+          "alias": "Hallo",
+          "meta": "@Hallo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hallo",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Hallo",
+          "name": "Hallo"
+        }
+      ],
+      "speech": [
+        "hallo, Luc",
+        "Hoi, Luc",
+        "Wat kan ik voor je doen?"
+      ]
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}
