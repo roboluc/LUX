@@ -1,0 +1,17 @@
+{
+  "id": "b0ab34c3-57e3-48cf-8f41-7b98905a6f93",
+  "name": "Hallo",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Hallo",
+      "synonyms": [
+        "Hallo",
+        "hoi",
+        "Lux"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
