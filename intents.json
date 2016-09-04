@@ -1,0 +1,23 @@
+{
+  "id": "aaaba62d-35c1-479d-82b0-2593d512de8c",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "userSays": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "speech": [
+        "Ik begrijp het niet.",
+        "Ik versta het niet."
+      ]
+    }
+  ],
+  "state": "LOADED",
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": true
+}
